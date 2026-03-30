@@ -3,8 +3,8 @@ package model;
 import model.constants.Colour;
 import model.constants.Discount;
 
-public class Apple extends Food implements Discountable {
-    String colour;
+public class Apple extends Food {
+    private String colour;
     // конструктор
     public Apple(int amount, double price, String colour) {
         super(amount, price, true);
